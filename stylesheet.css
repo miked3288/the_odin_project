@@ -20,6 +20,7 @@ a:hover {
   top: 15px;
 }
 
+
 .signin {
   background-color: rgb(66, 133, 244);
   color: white;
@@ -93,7 +94,7 @@ input[type="submit"] {
 .gs {
   display: flex;
   position: relative;
-  left: 30%;
+  left: 40%;
   top: -80px;
 }
 
