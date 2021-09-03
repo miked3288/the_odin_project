@@ -59,14 +59,46 @@ a:hover {
   height: 34px !important;
 }
 
-input {
-  text-rendering: auto;
+input[type="text"] {
+  text-rendering: auto;x
   letter-spacing: normal;
   word-spacing: normal;
+  position: relative;
+  width: 50%;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  top: -100px;
+  border-radius: 4px;
+
+}
+
+input[type="submit"] {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
 }
 
 .gs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  left: 30%;
+  top: -80px;
+}
+
+.fl {
+  position: relative;
+  left: 50%;
+  top: -127px;
 }
