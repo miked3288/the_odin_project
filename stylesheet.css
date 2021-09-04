@@ -4,7 +4,9 @@ body {
   font-size: 0.9em;
 }
 
+
 a {
+  position: relative;
   padding: 8px;
   white-space: nowrap;
   text-decoration: none;
@@ -36,12 +38,17 @@ a:hover {
 }
 
 .logo {
-  padding: 109;
-  padding-top: 11%;
+  position: relative;
+  padding-bottom: 48px;
+  padding-top: 67px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 272px;
+  height: 94px;
+  left: 598px;
+  
 }
 
 .bar {
@@ -62,10 +69,10 @@ input[type="text"] {
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
-  width: 50%;
+  width: 700px;
   height: 30px;
   position: relative;
-  left: 25%;
+  left: 360px;
   border-radius: 4px;
 }
 
@@ -89,12 +96,12 @@ input[type="submit"] {
 .gs {
   display: flex;
   position: relative;
-  left: 41%;
+  left: 595px;
   top: 0.3em;
 }
 
 .fl {
   display: flex;
   position: relative;
-  left: 52%;
+  left: 736px;
   top: -43px;
